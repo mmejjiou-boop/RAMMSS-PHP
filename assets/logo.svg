@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" fill="none">
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark -->
+  <rect x="6" y="8" width="44" height="44" rx="12" fill="url(#brandGrad)" />
+  
+  <!-- Graduation / Ballot / Democracy Icon -->
+  <path d="M28 17L14 24L28 31L42 24L28 17Z" fill="#FFFFFF" />
+  <path d="M18 26.5V34C18 37.5 22.5 40.5 28 40.5C33.5 40.5 38 37.5 38 34V26.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" />
+  <circle cx="39" cy="27" r="1.8" fill="#FDE047" />
+  <path d="M39 28.8V35.5" stroke="#FDE047" stroke-width="1.8" stroke-linecap="round" />
+
+  <!-- Checkmark badge -->
+  <circle cx="44" cy="44" r="8" fill="url(#badgeGrad)" stroke="#FFFFFF" stroke-width="2" />
+  <path d="M41 44L43 46L47 42" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Logo Text -->
+  <text x="60" y="29" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" fill="currentColor" letter-spacing="-0.5">CAMPUS LIFE</text>
+  <text x="60" y="44" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="10.5" fill="#4F46E5" letter-spacing="1.2">GROUPE RAMMSS</text>
+</svg>
+
